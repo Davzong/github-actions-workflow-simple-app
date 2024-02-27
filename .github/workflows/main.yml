@@ -7,12 +7,12 @@ env:
   RESOURCE_GROUP: "devops-demo-vm"
   CLUSTER_NAME: "Davzong"
   DEPLOYMENT_MANIFEST_PATH: "kubernetes"
+  AZURE_CONTAINER_REGISTRY_PASSWORD: "secrets"
 
 # Retrive below secrets from GitHub Actions Secrets
 #  AZURE_TENANT_ID: "secrets"
 #  AZURE_SUBSCRIPTION_ID: "secrets"
 #  AZURE_CLIENT_ID: "secrets"
-#  AZURE_CONTAINER_REGISTRY_PASSWORD: "secrets"
 
 on:
   push:
